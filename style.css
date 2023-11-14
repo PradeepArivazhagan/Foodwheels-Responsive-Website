@@ -74,7 +74,7 @@
 .sec2-btn:hover{
     color: red;
     background-color: transparent;
-    border: solid 1px;
+    border: solid 2px;
     border-color: red;
 }
 .txt{
