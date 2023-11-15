@@ -158,10 +158,10 @@
     padding: 10px 30px 10px 30px;
 }
 .d-btn:hover{
-    color: black;
+    color: white;
     background-color: transparent;
     border: solid 1px;
-    border-color: black;
+    border-color: white;
 }
 .b-btn{
     font-size: 13px;
