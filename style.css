@@ -60,7 +60,7 @@
     font-family: Open Sans;
 }
 .sec2-p2{
-    font-size: 12px;
+    font-size: 14px;
     font-family: Open Sans;
 }
 .sec2-btn{
@@ -191,11 +191,11 @@
     width: 300px;
 }
 .sec-6-txt{
-    font-weight: 500;
     color: black;
+    font-size: 30px;
 }
 .sec-6-para{
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(110, 110, 110);
 }
 .sec-6{
