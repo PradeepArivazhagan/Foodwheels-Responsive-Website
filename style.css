@@ -2,13 +2,13 @@
     margin-left: auto;
 }
 .main-heading-style{
-    font-family: Verdana;
+    font-family: Open Sans;
     font-weight: 750;
     color: red;
     font-size: x-large;
 }
 .nav-item-style{
-    font-family: Tahoma;
+    font-family: Open Sans;
     color: red;
     font-weight: 600;
     font-size: 18px;
@@ -25,7 +25,7 @@
 }
 .main-sec-heading{
     color: white;
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-size: 42px;
     font-weight: 700;
 }
@@ -35,7 +35,7 @@
     border: none;
     padding: 10px;
     border-radius: 20px 0px 0px 20px;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .btn-style{
     background-color: red;
@@ -43,7 +43,7 @@
     border-radius: 0px 20px 20px 0px;
     border: none;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .btn-style:hover{
     color: red;
@@ -57,11 +57,11 @@
 .sec2-p1{
     font-size: 30px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .sec2-p2{
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .sec2-btn{
     color: white;
@@ -69,7 +69,7 @@
     background-color: #EC0101;
     border: none;
     border-radius: 30px;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .sec2-btn:hover{
     color: red;
@@ -78,18 +78,18 @@
     border-color: red;
 }
 .txt{
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 600;
 }
 .pop-txt{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 600;
 }
 
 .button-style{
     color: white;
-    font-family: sans-serif;
+    font-family: Open Sans;
     background-color: red;
     width: 140px;
     border-radius: 20px;
@@ -101,7 +101,7 @@
     background-color: white;
 }
 .txt-style{
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .img-siz{
     width: 260px;
@@ -117,14 +117,14 @@
     width: 100px;
 }
 .sec-4-txt{
-    font-family: sans-serif;
+    font-family: Open Sans;
     color: red;
     font-weight: 600;
     font-size: 14px;
 }
 .sec-4-para{
     font-size: 13px;
-    font-family: sans-serif;
+    font-family: Open Sans;
     color: rgb(84, 84, 84);
 }
 .sec4-ind{
@@ -139,12 +139,12 @@
 }
 .sec-5-txt{
     color: white ;
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 600;
 }
 .sec-5-para{
     color: rgb(255, 161, 161);
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 600;
 }
 .d-btn{
@@ -153,7 +153,7 @@
     background-color: black;
     border: none;
     border-radius: 20px;
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 600;
     padding: 10px 30px 10px 30px;
 }
@@ -170,7 +170,7 @@
     background-color: #EC0101;
     border: 1px solid;
     border-radius: 20px;
-    font-family: sans-serif;
+    font-family: Open Sans;
     margin-left: 10px;
     padding: 5px 30px 5px 30px;
 }
@@ -200,5 +200,5 @@
 }
 .sec-6{
     text-align: center;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
