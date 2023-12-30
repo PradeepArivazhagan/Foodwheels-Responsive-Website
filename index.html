@@ -12,15 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Font Awesome -->
     <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    rel="stylesheet"
-    />
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
@@ -28,7 +24,7 @@
     <!-- Nav Bar Section-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-          <span class="navbar-brand mb-0 h1">
+          <span class="navbar-brand mb-0">
             <img class="logo-style" src="food wheels logo.png" />
           </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,24 +44,25 @@
     </nav>
 
     <!-- Search Section -->
-    <div class="main-sec-style d-flex flex-column justify-content-center">
-        <div>
-          <h1 class="main-sec-heading mt-5">Your Favourite Food,Delivered to you.</h1>
-        </div>
-          <div class="m-auto mt-2" style="font-family: Open Sans;">
-              <div class="input-group">
-                <div class="form-outline form-style" data-mdb-input-init>
-                  <input type="search" id="form1" class="form-control" placeholder="Search Your Place"/>
-                </div>
-                <button type="button" class="btn btn-style" data-mdb-ripple-init>
-                  <i class="fas fa-search"></i>
-                </button>
-              </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="main-sec-style text-center">
+          <div class="col-12" >
+            <h1 class="main-sec-heading mt-5">Your Favourite Food,Delivered to you.</h1>
           </div>
+          <div class="col-12 mt-3 input-group d-flex flex-row justify-content-center" style="font-family: Open Sans;">
+            <div class="form-outline form-style" data-mdb-input-init>
+              <input type="search" id="form1" class="form-control" placeholder="Search Your Place"/>
+            </div>
+            <button type="button" class="btn btn-style" data-mdb-ripple-init>
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Download Our App section -->
-
     <div class="container">
       <div class="row p-5 m-auto d-flex flex-row justify-content-center">
           <div class="col-sm-12 col-md-12 col-lg-4 order-1 ">
@@ -82,7 +79,6 @@
     </div>
 
     <!-- Popular Food Section -->
-    
     <div id="explore-food-section" class="container">
       <div class="row">
         <div class="col-12 d-flex flex-row justify-content-between">
@@ -301,7 +297,7 @@
       <div class="container">
         <div class="row">
           <div class="p-5 col-12 col-md-7 d-flex flex-column justify-content-center">
-                <h5 class="sec-5-txt">Food Delivery helps you bring food to your front door.</h5>
+                <h1 class="sec-5-txt">Food Delivery helps you bring food to your front door.</h1>
                 <p class="sec-5-para mt-2">Download our App Now!!!</p>
                 <div class="d-md-none">
                   <img class="burger-imgs" src="burger.png.png">  
@@ -321,70 +317,62 @@
     <!--User Review Section-->
     <div id="review-section" class="container">
       <div class="row">
-        <div class="col-12 mt-5 mb-3">
-          <div class="sec-6">
-            <h2 class="sec-6-txt">What our food lovers said</h2>
-          </div>
+        <div class="col-12 sec-6 mt-5 mb-3">
+          <h2 class="sec-6-txt">What our food lovers said</h2>
         </div>
       </div>
     </div>
-    <div class="container mt-3 mb-3 d-flex flex-row justify-content-center">
-        <div class="row g-2">
-            <div class="col-md-4">
-                <div class="card shadow p-4 text-center px-4">  
+  
+    <div class="container mt-3 mb-3">
+        <div class="row">
+            <div class="card shadow col-12 col-md-4 p-4 m-auto text-center">  
                     <div class="user-image">     
-                <img src="https://i.imgur.com/PKHvlRS.jpg" class="rounded-circle" width="80"
-                        >    
+                      <img src="https://i.imgur.com/PKHvlRS.jpg" class="rounded-circle" width="80">    
                     </div>
                     <div class="user-content mt-2">
-                        <h5 class="mb-0">Bruce Hardy</h5>
-                        <h1 class="mt-2 span-txt">Software Developer</h1>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <h5 class="mb-0">Bruce Hardy</h5>
+                      <h1 class="mt-2 span-txt">Software Developer</h1>
+                      <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
                     </div>
-                </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow p-4 text-center px-4">
+            <div class="card shadow col-12 col-md-4 p-4 m-auto text-center">
                     <div class="user-image">
-                <img src="https://i.imgur.com/w2CKRB9.jpg" class="rounded-circle" width="80">
+                      <img src="https://i.imgur.com/w2CKRB9.jpg" class="rounded-circle" width="80">
                     </div>
                     <div class="user-content">
-                        <h5 class="mb-0 mt-2">Mark Smith</h5>
-                        <h1 class="mt-2 span-txt">Web Developer</h1>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                      <h5 class="mb-0 mt-2">Mark Smith</h5>
+                      <h1 class="mt-2 span-txt">Web Developer</h1>
+                      <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
                     </div>
                     <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
                     </div>
-                </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow p-4 text-center px-4">
+            <div class="card shadow col-12 col-md-4 p-4 m-auto text-center">
                     <div class="user-image">
-                <img src="https://i.imgur.com/ACeArwY.jpg" class="rounded-circle" width="80">
+                      <img src="https://i.imgur.com/ACeArwY.jpg" class="rounded-circle" width="80">
                     </div>
                     <div class="user-content">
-                        <h5 class="mb-0 mt-2">Veera  Duncan</h5>
-                        <h1 class="mt-2 span-txt">Software Architect</h1>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <h5 class="mb-0 mt-2">Veera  Duncan</h5>
+                      <h1 class="mt-2 span-txt">Software Architect</h1>
+                      <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
                     </div>
-                </div>
             </div>
         </div>
     </div>
