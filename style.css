@@ -7,7 +7,7 @@
 .nav-item-style{
     font-family: Open Sans;
     color: red;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 18px;
 }
 .main-heading-style:hover{
@@ -17,8 +17,9 @@
     background-image: url(https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food-1024x683.jpg);
     background-size: cover;
     width: 100%;
+    height: 600px;
     text-align: center;
-    padding: 160px;
+    padding: 260px;
 }
 .main-sec-heading{
     color: white;
@@ -110,13 +111,13 @@
     font-size: 30px;
 }
 .sec-4-img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 240px;
 }
 .sec-4-txt{
     font-family: Open Sans;
     color: red;
-    font-weight: 600;
+    font-weight: 1000;
     font-size: 20px;
 }
 .sec-4-para{
@@ -198,4 +199,23 @@
 .sec-6{
     text-align: center;
     font-family: Open Sans;
+}
+
+.card{
+    width: 300px;
+    border:none;
+    font-family: Open Sans;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+.ratings i{
+    color:red;
+}
+.span-txt{
+    font-size: 15px;
+    color: rgb(165, 176, 176);
 }
