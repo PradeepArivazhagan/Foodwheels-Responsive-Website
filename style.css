@@ -27,19 +27,19 @@
     font-weight: 700;
 }
 .form-style{
-    width: 300px;
-    background-color: azure;
+    width: 400px;
+    background-color:white;
     border: none;
     padding: 10px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 15px 0px 0px 15px;
     font-family: Open Sans;
 }
 .btn-style{
     background-color: red;
     color: white;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 15px 15px 0px;
     border: none;
-    padding: 10px;
+    padding: 0px 20px 0px 20px;
     font-family: Open Sans;
 }
 .btn-style:hover{
@@ -117,10 +117,10 @@
     font-family: Open Sans;
     color: red;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
 }
 .sec-4-para{
-    font-size: 13px;
+    font-size: 16px;
     font-family: Open Sans;
     color: rgb(84, 84, 84);
 }
